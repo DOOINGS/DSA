@@ -4,3 +4,4 @@ const Jesus = 'Jesus';
 const Peace = 'Peace';
 
 Array.pop()
+Array.push(3)
