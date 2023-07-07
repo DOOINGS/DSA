@@ -1,4 +1,5 @@
 const arr = ["peace", "david", "Jesus", 1, 2, 6]
+const array = [0, 4, 23, "pig", "korea"]
 
 //add an item  to the beginning of an array
 arr.unshift(0)
@@ -13,8 +14,8 @@ arr.shift()
 arr.pop()
 
 //find the length of an array
-arr.length()
-arr.length(7)
+// arr.len()
+// arr.len(7)
 
 //to get the index of a particular item
 arr.indexOf(2)
@@ -23,7 +24,11 @@ arr.indexOf(2)
 arr.splice(1)
 arr.splice("ode")
 
+
+
 //to print all items in an array
+//also testing the concatenation of two arrays
 for(const item of arr) {
+  arr.concat(second)
   console.log(item)
 }
