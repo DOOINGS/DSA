@@ -5,3 +5,4 @@ const Peace = 'Peace';
 
 Array.pop()
 Array.push(3)
+Array.unshift()
