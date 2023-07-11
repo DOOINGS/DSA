@@ -25,6 +25,8 @@ deleteArray(array, 3)
 
 console.log(array); // [1, 2, 4]
 
+deleteArray(array, 0)
+
 
 
 
